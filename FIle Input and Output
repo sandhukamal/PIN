@@ -1,0 +1,4 @@
+#Building a calculator (I)
+f = open('add.py', 'w')
+f.write('from sys import argv \nscript, num1, num2 = argv \nprint float(num1) + float(num2)')
+f.close()
